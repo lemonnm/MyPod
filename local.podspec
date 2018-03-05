@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'local'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Say Hello World'
  
   s.description      = <<-DESC
