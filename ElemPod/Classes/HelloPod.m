@@ -9,7 +9,6 @@
 #import "HelloPod.h"
 #import "AFNetworking.h"
 #import "Define.h"
-#import "MyHeaders.h"
 
 @implementation HelloPod
 

@@ -1,17 +1,13 @@
 //
-//  MyHeaders.h
+//  CallOther.h
 //  MyPod
 //
 //  Created by Matthieu Lemonnier on 05/03/2018.
 //  Copyright © 2018 La Poste. All rights reserved.
 //
 
-
 #import <Foundation/Foundation.h>
 
-#ifndef _MYHEADER_
-#define _MYHEADER_
+@interface CallOther : NSObject
 
-#import "HelloPod.h"
-
-#endif /* _AFNETWORKING_ */
+@end

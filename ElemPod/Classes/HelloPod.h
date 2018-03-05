@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface HelloPod : NSObject
 - (NSString *) helloWorld;
 - (void) france:(void (^)(NSString *))block;
