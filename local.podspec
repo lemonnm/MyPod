@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'local'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = 'Say Hello World'
  
   s.description      = <<-DESC
@@ -22,8 +22,9 @@ This fantastic view changes its color gradually makes your app look fantastic!
  
   s.ios.deployment_target = '9.0'
   # s.source_files = 'FantasticView/FantasticView.swift'
-  s.source_files  = 'ElemPod/Classes/**/*.{h,m}'
+  s.source_files  = 'ElemPod/**/*.{h,m}'
  
-  s.public_header_files = "ElemPod/Header/**/*.h"
+  s.public_header_files = "ElemPod/**/*.h"
 
+  s.dependency 'AFNetworking'
 end

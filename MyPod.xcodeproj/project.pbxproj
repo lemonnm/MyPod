@@ -21,6 +21,7 @@
 		13F6B06EACD819382EB96325 /* libPods-MyPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D1D1647C28137A6CEBC4E2 /* Pods-MyPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPod.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPod/Pods-MyPod.release.xcconfig"; sourceTree = "<group>"; };
 		8A97C428BFA13925EC5DAD02 /* Pods-MyPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPod/Pods-MyPod.debug.xcconfig"; sourceTree = "<group>"; };
+		D131A29C204D5EAF0059DD00 /* MyHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeaders.h; sourceTree = "<group>"; };
 		D1457A9520497FAA0038ED26 /* MyPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1457A9820497FAA0038ED26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1457A9920497FAA0038ED26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,18 +92,9 @@
 			path = MyPod;
 			sourceTree = "<group>";
 		};
-		D1863B5E204D4FCC0068E7C4 /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				D1A4FBD52049B3B300A23021 /* HelloPod.h */,
-			);
-			path = Header;
-			sourceTree = "<group>";
-		};
 		D1A4FBD22049AE4B00A23021 /* ElemPod */ = {
 			isa = PBXGroup;
 			children = (
-				D1863B5E204D4FCC0068E7C4 /* Header */,
 				D1A4FBD82049B3EE00A23021 /* Classes */,
 			);
 			path = ElemPod;
@@ -111,7 +103,9 @@
 		D1A4FBD82049B3EE00A23021 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D131A29C204D5EAF0059DD00 /* MyHeaders.h */,
 				D1A4FBD62049B3B300A23021 /* HelloPod.m */,
+				D1A4FBD52049B3B300A23021 /* HelloPod.h */,
 				D1863B5F204D50260068E7C4 /* Define.h */,
 			);
 			path = Classes;
