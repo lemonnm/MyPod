@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AFNetworking.h"
+#import "HelloPod.h"
 
 @interface ViewController ()
 
@@ -29,12 +30,10 @@
 }
 
 - (IBAction)touchCall:(id)sender {
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    [manager GET:@"https://restcountries.eu/rest/v2/alpha/fra" parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
-        NSLog(@"JSON: %@", responseObject[@"capital"]);
-        _label.text = responseObject[@"capital"];
-    } failure:^(NSURLSessionTask *operation, NSError *error) {
-        NSLog(@"Error: %@", error);
+    HelloPod * hello = [[HelloPod alloc] init];
+    
+    [hello france:^(NSString * capital) {
+        _label.text = capital;
     }];
 }
 

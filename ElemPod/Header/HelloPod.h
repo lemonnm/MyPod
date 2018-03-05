@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface HelloPod : NSObject
--(NSString *) helloWorld;
+- (NSString *) helloWorld;
+- (void) france:(void (^)(NSString *))block;
 @end

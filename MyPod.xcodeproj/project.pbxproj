@@ -14,7 +14,6 @@
 		D1457AA220497FAA0038ED26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1457AA120497FAA0038ED26 /* Assets.xcassets */; };
 		D1457AA520497FAA0038ED26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1457AA320497FAA0038ED26 /* LaunchScreen.storyboard */; };
 		D1457AA820497FAA0038ED26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1457AA720497FAA0038ED26 /* main.m */; };
-		D1A4FBD42049AE6300A23021 /* local.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D1A4FBD32049AE6200A23021 /* local.podspec */; };
 		D1A4FBD72049B3B300A23021 /* HelloPod.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A4FBD62049B3B300A23021 /* HelloPod.m */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,7 @@
 		D1457AA420497FAA0038ED26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1457AA620497FAA0038ED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1457AA720497FAA0038ED26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1A4FBD32049AE6200A23021 /* local.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = local.podspec; sourceTree = "<group>"; };
+		D1863B5F204D50260068E7C4 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		D1A4FBD52049B3B300A23021 /* HelloPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPod.h; sourceTree = "<group>"; };
 		D1A4FBD62049B3B300A23021 /* HelloPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,10 +91,18 @@
 			path = MyPod;
 			sourceTree = "<group>";
 		};
+		D1863B5E204D4FCC0068E7C4 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D1A4FBD52049B3B300A23021 /* HelloPod.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 		D1A4FBD22049AE4B00A23021 /* ElemPod */ = {
 			isa = PBXGroup;
 			children = (
-				D1A4FBD32049AE6200A23021 /* local.podspec */,
+				D1863B5E204D4FCC0068E7C4 /* Header */,
 				D1A4FBD82049B3EE00A23021 /* Classes */,
 			);
 			path = ElemPod;
@@ -104,8 +111,8 @@
 		D1A4FBD82049B3EE00A23021 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D1A4FBD52049B3B300A23021 /* HelloPod.h */,
 				D1A4FBD62049B3B300A23021 /* HelloPod.m */,
+				D1863B5F204D50260068E7C4 /* Define.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -180,7 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A4FBD42049AE6300A23021 /* local.podspec in Resources */,
 				D1457AA520497FAA0038ED26 /* LaunchScreen.storyboard in Resources */,
 				D1457AA220497FAA0038ED26 /* Assets.xcassets in Resources */,
 				D1457AA020497FAA0038ED26 /* Main.storyboard in Resources */,
@@ -385,6 +391,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VPHG5A9X3L;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"$(PROJECT_DIR)/ElemPod\"/**",
+				);
 				INFOPLIST_FILE = MyPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laposte.MyPod;
@@ -400,6 +412,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VPHG5A9X3L;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"$(PROJECT_DIR)/ElemPod\"/**",
+				);
 				INFOPLIST_FILE = MyPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laposte.MyPod;
