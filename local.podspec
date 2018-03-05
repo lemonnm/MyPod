@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'local'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'Say Hello World'
  
   s.description      = <<-DESC
@@ -24,6 +24,6 @@ This fantastic view changes its color gradually makes your app look fantastic!
   # s.source_files = 'FantasticView/FantasticView.swift'
   s.source_files  = 'ElemPod/Classes/**/*.{h,m}'
  
-  #s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "ElemPod/Classes/**/*.h"
 
 end
