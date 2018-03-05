@@ -8,21 +8,21 @@
 
 Pod::Spec.new do |s|
   s.name             = 'local'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = 'Say Hello World'
  
   s.description      = <<-DESC
 This fantastic view changes its color gradually makes your app look fantastic!
                        DESC
  
-  s.homepage         = 'https://github.com/lemonnm/MyPod'
+  s.homepage         = 'https://github.com/<YOUR GITHUB USERNAME>/FantasticView'
   s.license          = "MIT"
   s.author           = "Matthieu Lemonnier"
-  s.source           = { :git => 'https://github.com/lemonnm/MyPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/<YOUR GITHUB USERNAME>/FantasticView.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '9.0'
-  # s.source_files = 'FantasticView/FantasticView.swift'
-  s.source_files  = 'ElemPod/Classes/**/*.{h,m}'
+  #s.source_files = 'FantasticView/FantasticView.swift'
+  s.source_files  = 'MyPod/Classes/**/*.{h,m}'
  
   #s.public_header_files = "Classes/**/*.h"
 
