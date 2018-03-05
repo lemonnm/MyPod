@@ -60,7 +60,7 @@
 		D1457A8C20497FAA0038ED26 = {
 			isa = PBXGroup;
 			children = (
-				D1A4FBD22049AE4B00A23021 /* Pod */,
+				D1A4FBD22049AE4B00A23021 /* ElemPod */,
 				D1457A9720497FAA0038ED26 /* MyPod */,
 				D1457A9620497FAA0038ED26 /* Products */,
 				D93B3451FC49FB05F524D0D4 /* Pods */,
@@ -92,13 +92,13 @@
 			path = MyPod;
 			sourceTree = "<group>";
 		};
-		D1A4FBD22049AE4B00A23021 /* Pod */ = {
+		D1A4FBD22049AE4B00A23021 /* ElemPod */ = {
 			isa = PBXGroup;
 			children = (
 				D1A4FBD32049AE6200A23021 /* local.podspec */,
 				D1A4FBD82049B3EE00A23021 /* Classes */,
 			);
-			path = Pod;
+			path = ElemPod;
 			sourceTree = "<group>";
 		};
 		D1A4FBD82049B3EE00A23021 /* Classes */ = {
