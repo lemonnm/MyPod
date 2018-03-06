@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		782BDFE1CE899062048B82B4 /* libPods-MyPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F6B06EACD819382EB96325 /* libPods-MyPod.a */; };
-		D131A2A5204D8CEA0059DD00 /* CallOther.m in Sources */ = {isa = PBXBuildFile; fileRef = D131A2A4204D8CEA0059DD00 /* CallOther.m */; };
+		D131A2D0204EDD050059DD00 /* CallOther.m in Sources */ = {isa = PBXBuildFile; fileRef = D131A2CB204EDD040059DD00 /* CallOther.m */; };
+		D131A2D1204EDD050059DD00 /* HelloPod.m in Sources */ = {isa = PBXBuildFile; fileRef = D131A2CF204EDD040059DD00 /* HelloPod.m */; };
 		D1457A9A20497FAA0038ED26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1457A9920497FAA0038ED26 /* AppDelegate.m */; };
 		D1457A9D20497FAA0038ED26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1457A9C20497FAA0038ED26 /* ViewController.m */; };
 		D1457AA020497FAA0038ED26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1457A9E20497FAA0038ED26 /* Main.storyboard */; };
 		D1457AA220497FAA0038ED26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1457AA120497FAA0038ED26 /* Assets.xcassets */; };
 		D1457AA520497FAA0038ED26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1457AA320497FAA0038ED26 /* LaunchScreen.storyboard */; };
 		D1457AA820497FAA0038ED26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1457AA720497FAA0038ED26 /* main.m */; };
-		D1A4FBD72049B3B300A23021 /* HelloPod.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A4FBD62049B3B300A23021 /* HelloPod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +23,11 @@
 		14D1D1647C28137A6CEBC4E2 /* Pods-MyPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPod.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPod/Pods-MyPod.release.xcconfig"; sourceTree = "<group>"; };
 		8A97C428BFA13925EC5DAD02 /* Pods-MyPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPod/Pods-MyPod.debug.xcconfig"; sourceTree = "<group>"; };
 		D131A29C204D5EAF0059DD00 /* MyHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeaders.h; sourceTree = "<group>"; };
-		D131A2A3204D8CEA0059DD00 /* CallOther.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallOther.h; sourceTree = "<group>"; };
-		D131A2A4204D8CEA0059DD00 /* CallOther.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallOther.m; sourceTree = "<group>"; };
+		D131A2CB204EDD040059DD00 /* CallOther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallOther.m; sourceTree = "<group>"; };
+		D131A2CC204EDD040059DD00 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		D131A2CD204EDD040059DD00 /* HelloPod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPod.h; sourceTree = "<group>"; };
+		D131A2CE204EDD040059DD00 /* CallOther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallOther.h; sourceTree = "<group>"; };
+		D131A2CF204EDD040059DD00 /* HelloPod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloPod.m; sourceTree = "<group>"; };
 		D1457A9520497FAA0038ED26 /* MyPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1457A9820497FAA0038ED26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1457A9920497FAA0038ED26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,9 +38,6 @@
 		D1457AA420497FAA0038ED26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1457AA620497FAA0038ED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1457AA720497FAA0038ED26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1863B5F204D50260068E7C4 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
-		D1A4FBD52049B3B300A23021 /* HelloPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPod.h; sourceTree = "<group>"; };
-		D1A4FBD62049B3B300A23021 /* HelloPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,18 @@
 				13F6B06EACD819382EB96325 /* libPods-MyPod.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D131A2CA204EDD040059DD00 /* MCM */ = {
+			isa = PBXGroup;
+			children = (
+				D131A2CB204EDD040059DD00 /* CallOther.m */,
+				D131A2CC204EDD040059DD00 /* Define.h */,
+				D131A2CD204EDD040059DD00 /* HelloPod.h */,
+				D131A2CE204EDD040059DD00 /* CallOther.h */,
+				D131A2CF204EDD040059DD00 /* HelloPod.m */,
+			);
+			path = MCM;
 			sourceTree = "<group>";
 		};
 		D1457A8C20497FAA0038ED26 = {
@@ -106,12 +118,8 @@
 		D1A4FBD82049B3EE00A23021 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D131A2CA204EDD040059DD00 /* MCM */,
 				D131A29C204D5EAF0059DD00 /* MyHeaders.h */,
-				D1A4FBD62049B3B300A23021 /* HelloPod.m */,
-				D1A4FBD52049B3B300A23021 /* HelloPod.h */,
-				D1863B5F204D50260068E7C4 /* Define.h */,
-				D131A2A3204D8CEA0059DD00 /* CallOther.h */,
-				D131A2A4204D8CEA0059DD00 /* CallOther.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -251,10 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A4FBD72049B3B300A23021 /* HelloPod.m in Sources */,
+				D131A2D1204EDD050059DD00 /* HelloPod.m in Sources */,
+				D131A2D0204EDD050059DD00 /* CallOther.m in Sources */,
 				D1457A9D20497FAA0038ED26 /* ViewController.m in Sources */,
 				D1457AA820497FAA0038ED26 /* main.m in Sources */,
-				D131A2A5204D8CEA0059DD00 /* CallOther.m in Sources */,
 				D1457A9A20497FAA0038ED26 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
